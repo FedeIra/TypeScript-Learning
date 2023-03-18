@@ -1,3 +1,4 @@
+"use strict";
 /*
 !TYPESCRIPT:
 Typescript analiza tu código constantemente y te ayuda a encontrar errores antes de ejecutarlo.
@@ -48,7 +49,6 @@ Sin embargo, hay una forma más fácil de hacerlo. En vez de hacer los pasos 2 y
 1) Creamos el archivo de typescript.
 2) Ejecutamos el comando: npx tsc -w (esto es para que el compilador de typescript se quede escuchando los cambios que hagamos en los archivos .ts y los compile a .js automáticamente). Esto es para que el compilador de typescript se quede escuchando los cambios que hagamos en los archivos .ts y los compile a .js automáticamente.
 3) Ejecutamos el comando: node dist/hello.js (esto es para ejecutar el archivo .js que se generó automáticamente).
-!4) Para ejecutar el compilador en modo watch sobre un solo archivo y mandarlo a una carpeta podemos usar el siguiente comando: npx tsc -w src/01-hello.ts --outDir dist, luego lo podemos ejecutar con node dist/01-hello.js
 
 Tambien está DENO pero está en beta.
 
