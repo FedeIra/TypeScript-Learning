@@ -9,6 +9,8 @@ En javascript solo te das cuenta de un error recién cuando lo ejecutas.
 
 ? //@ts-check:  puesto al principio de un archivo .js, typescript te va a avisar de los errores que tengas en el archivo. El archivo ts no necesita esto pq lo corre automaticamente.
 
+Ts es de código estático. El "código estático" o "análisis estático de código" se refiere a la revisión del código fuente de un programa (o parte de un programa) sin necesidad de ejecutarlo. El objetivo de esta práctica es detectar errores en el código antes de que se produzcan en tiempo de ejecución. El análisis estático de código puede ser realizado manualmente por un programador o por herramientas automatizadas que buscan en el código patrones de errores conocidos o vulnerabilidades de seguridad. Esta técnica es muy útil para mejorar la calidad del software y reducir los errores.
+
 !1) PASOS PARA INICIAR PROYECTO CON TYPESCRIPT:
 *1) Crear gitignore.io (https://www.toptal.com/developers/gitignore) y agregar: windows, macOS, node, Linux. Generamos el doc y lo copiamos en el proyecto (.gitignore).
 *2) crear .editorconfig: http://editorconfig.org
