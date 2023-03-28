@@ -82,7 +82,7 @@ Typescript:
 
 TypeScript también puede inferir el tipo de una variable. Por ejemplo: si le asigno un número a una variable, typescript va a inferir que es un número.
 
-!LIBREARIAS:
+!LIBRERÍAS:
 Sin soporte de typescript (ejemplo Lodash) y con soporte (ejemplo: date-fns )
 
 La forma manual de chequearlo es si tiene un typescript config file (tsconfig.json) en el repositorio de la librería. Si lo tiene, es porque la librería tiene soporte de typescript.
