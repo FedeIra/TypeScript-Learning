@@ -10,7 +10,7 @@ Se suele emplear mucho en librerías, pero depende mucho de tu proyecto y de las
 
 La sobre carga de funciones únicamente suelen darse con las funciones declarativas con la palabra reservada function. */
 
-function parseString(input: string | string[]): string | string[] {
+export function parseString(input: string | string[]): string | string[] {
   if (Array.isArray(input)) {
     return input.join('');
   } else {
