@@ -2,14 +2,14 @@
 !INTERFACES:
 */
 
-type Sizes = 'S' | 'M' | 'L' | 'XL';
+type Sizes2 = 'S' | 'M' | 'L' | 'XL';
 
-type Product = {
+type Product2 = {
   id: string | number;
   title: string;
   createAt: Date;
   stock: number;
-  size?: Sizes;
+  size?: Sizes2;
 };
 
 //? refactor to interface:
@@ -25,23 +25,23 @@ interface ProductInterface {
   title: string;
   createAt: Date;
   stock: number;
-  size?: Sizes;
+  size?: Sizes2;
 }
 
-const products: ProductInterface[] = [];
+const products2: ProductInterface[] = [];
 
-products.push({
+products2.push({
   id: 1,
   title: 'Camiseta',
   createAt: new Date(),
   stock: 10,
 });
 
-const createProduct = (product: ProductInterface) => {
-  products.push(product);
+const createProduct2 = (product: ProductInterface) => {
+  products2.push(product);
 };
 
-createProduct({
+createProduct2({
   id: 2,
   title: 'Pantalón',
   createAt: new Date(),
@@ -49,7 +49,7 @@ createProduct({
   size: 'M',
 });
 
-console.log('products:', products);
+console.log('products:', products2);
 
 /* Con las interfaces podemos heredar otras interfaces, y con los type no podemos hacer eso. */
 
