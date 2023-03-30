@@ -1,4 +1,6 @@
 import { ProductInterface } from './product.model';
+import { CreateProductDTOInterface } from './product.dto';
+import { faker } from '@faker-js/faker';
 
 const fs = require('fs');
 
@@ -20,15 +22,29 @@ export const getProductById = (id: string) => {
   return product;
 };
 
-export const addProduct = (input: ProductInterface) => {
+export const addProduct = (input: CreateProductDTOInterface) => {
   // input.id = Math.random().toString(36).substr(2, 9);
   // Como vimos arriba me podrían sobreescribir y cambiar los datos del input. Para esto es mejor usar el readonly en la interfaz.
-  products.push(input);
+  const newProduct = {
+    ...input,
+    // la idea es q los atributos a continuación se generan automaticamente por la base de datos y al relacionarlo con la categoría mediante el id, pero aquí lo hacemos de manera manual para poder probarlo.
+    id: faker.datatype.uuid(),
+    createdAt: faker.date.recent(),
+    updatedAt: faker.date.recent(),
+    category: {
+      id: faker.datatype.uuid(),
+      createdAt: faker.date.recent(),
+      updatedAt: faker.date.recent(),
+      name: faker.commerce.department(),
+    },
+  };
+  products.push(newProduct);
   // create json with all products indicating folder and file name:
   fs.writeFileSync(
     './src/app/products.json',
     JSON.stringify(products, null, 2)
   );
+  return newProduct;
 };
 
 export const addProducts = (input: ProductInterface) => {

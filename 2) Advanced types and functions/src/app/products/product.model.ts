@@ -30,3 +30,22 @@ export interface ProductInterface extends BaseModelInterface {
   tags: string[];
   category: CategoryInterface;
 }
+
+//! DTO: ver dto-notes.ts
+
+// en tipos:
+type CreateProductDTO = Omit<
+  ProductInterface,
+  'id' | 'createdAt' | 'updatedAt' | 'category'
+>; //? Omit: omitir propiedades de una interfaz o type (en este caso, omito id, createdAt y updatedAt) y la categoría
+
+// en interfaces:
+// export interface CreateProductDTOInterface
+//   extends Omit<
+//     ProductInterface,
+//     'id' | 'createdAt' | 'updatedAt' | 'category'
+//   > {
+//   categoryId: string; // le agrego este nuevo atributo que no lo requiere la interfaz base (ProductInterface) pero sí la necesito para crear un producto nuevo y relacionarlo a una categoría. Esto no lo podría hacer en tipos pq no se puede extender un type.
+// }
+
+// Una buena práctica es que los DTO's tengan su propio archivo.

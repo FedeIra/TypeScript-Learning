@@ -31,40 +31,39 @@ Para generar productos automaticamente para usar la librería faker para tests y
 
 import { faker } from '@faker-js/faker';
 
-// get products:
+//? get products:
 const allProducts = getProducts();
 // console.log(allProducts);
 
-// get product by id:
+//? get product by id:
 // const productSelected = getProductById('42448e44-6b96-4fdd-b347-db543ae69a95');
 // console.log(productSelected);
 
-// add one product:
-// const newProduct = {
-// addProduct({
-//   id: faker.datatype.uuid(),
-//   createdAt: faker.date.recent(),
-//   updatedAt: faker.date.recent(),
-//   title: faker.commerce.productName(),
-//   image: faker.image.imageUrl(),
-//   description: faker.commerce.productDescription(),
-//   stock: faker.datatype.number({ min: 10, max: 100 }),
-//   size: faker.helpers.arrayElement(['S', 'M', 'L', 'XL']),
-//   color: faker.color.human(),
-//   price: parseInt(faker.commerce.price(), 10),
-//   isNew: faker.datatype.boolean(),
-//   tags: faker.helpers.arrayElements(),
-//   category: {
-//     id: faker.datatype.uuid(),
-//     createdAt: faker.date.recent(),
-//     updatedAt: faker.date.recent(),
-//     name: faker.commerce.department(),
-//   },
-// });
-// };
-// console.log(newProduct);
+//? add one product:
+const newProduct = addProduct({
+  //   id: faker.datatype.uuid(),
+  //   createdAt: faker.date.recent(),
+  //   updatedAt: faker.date.recent(),
+  title: faker.commerce.productName(),
+  image: faker.image.imageUrl(),
+  description: faker.commerce.productDescription(),
+  stock: faker.datatype.number({ min: 10, max: 100 }),
+  size: faker.helpers.arrayElement(['S', 'M', 'L', 'XL']),
+  color: faker.color.human(),
+  price: parseInt(faker.commerce.price(), 10),
+  isNew: faker.datatype.boolean(),
+  tags: faker.helpers.arrayElements(),
+  //   category: {
+  //     id: faker.datatype.uuid(),
+  //     createdAt: faker.date.recent(),
+  //     updatedAt: faker.date.recent(),
+  //     name: faker.commerce.department(),
+  //   },
+  categoryId: faker.datatype.uuid(),
+});
+console.log(newProduct);
 
-//add many products:
+//? add many products:
 // const newProducts =
 // addProducts({
 //   id: faker.datatype.uuid(),
@@ -89,11 +88,11 @@ const allProducts = getProducts();
 
 // console.log(newProducts);
 
-// delete product:
+//? delete product:
 // const deletedProduct = deleteProduct('42448e44-6b96-4fdd-b347-db543ae69a95');
 // console.log(deletedProduct);
 
-// update product:
+//? update product:
 const updatedProduct = updateProduct('42448e44-6b96-4fdd-b347-db543ae69a95', {
   id: 'IdCambiado',
   createdAt: new Date(),
