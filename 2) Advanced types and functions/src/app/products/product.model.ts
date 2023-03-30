@@ -20,7 +20,13 @@ interface ProductInterfaceWithoutExtension {
 export interface ProductInterface extends BaseModelInterface {
   // gracias al extends tengo los demás campos de la interfaz base (BaseModelInterface: id, createdAt, updatedAt)
   title: string;
+  image: string;
+  description: string;
   stock: number;
   size?: Sizes;
+  color: string;
+  price: number;
+  isNew: boolean;
+  tags: string[];
   category: CategoryInterface;
 }
