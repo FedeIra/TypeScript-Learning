@@ -22,6 +22,7 @@ export const findProducts = (
   dto: FindProductDTOInterface
 ): ProductInterface[] => {
   // dto.color = "blue"; // me tira error pq es solo de lectura
+  // dto.tags?.push('tag3'); // me permite agregar un nuevo tag, pero no modificar los existentes. El tema es q no debería dejarme hacer esto. Para eso es mejor usar el readonly en la interfaz. Para evitar esto usamos el ReadonlyArray<string> en la interfaz.
   return products;
 };
 

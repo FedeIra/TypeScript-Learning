@@ -45,6 +45,7 @@ const productsFound = findProducts({
   stock: 10,
   color: 'red',
   size: 'M',
+  tags: ['tag1', 'tag2'],
 });
 // console.log(productsFound);
 

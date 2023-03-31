@@ -20,9 +20,9 @@ type exampleDTOUpdateProduct1 = Partial<ProductInterface>; //? Partial: hace que
 
 // Con interface:
 export interface UpdateProductDTOInterface
-  extends Partial<CreateProductDTOInterface>,
+  extends Partial<Omit<CreateProductDTOInterface, 'category'>>,
     Pick<ProductInterface, 'updatedAt'> {}
-// ahora con partial hago q todos los atributos sean opcionales y al usar el DTOInterface de product no permito q cambien el id, createdAt, updatedAt y categoryId. Podemos reutilizar nuestro DTO normalmente, ya que son interfaces. Agrego pick de updatedAt pq quiero q se actualice la fecha de actualización.
+// ahora con partial hago q todos los atributos sean opcionales y al usar el DTOInterface de product no permito q cambien el id, createdAt, updatedAt y categoryId. Podemos reutilizar nuestro DTO normalmente, ya que son interfaces. Agrego pick de updatedAt pq quiero q se actualice la fecha de actualización. También le saco el category pq no quiero q se pueda cambiar la categoría.
 
 //! Required:
 // quiero que sea obligatorio cada campo en el update:
@@ -37,4 +37,6 @@ type example3 = Readonly<ProductInterface>; //? Readonly: hace que todos los cam
 
 // con interface:
 export interface FindProductDTOInterface
-  extends Readonly<Partial<ProductInterface>> {} // quiero q sea de solo lectura y opcional.
+  extends Readonly<Partial<Omit<ProductInterface, 'tags'>>> {
+  readonly tags: ReadonlyArray<string>; // quiero q sea de solo lectura y opcional. Primero el readonly de tags para no poder cambiarlo, y luego el readonly de array para no poder cambiar el array. Ahora no me deja reasignar ni mutar el array.
+} // quiero q sea de solo lectura y opcional.
