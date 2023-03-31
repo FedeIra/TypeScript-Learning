@@ -2,6 +2,7 @@ import {
   products,
   getProducts,
   getProductById,
+  findProducts,
   addProduct,
   addProducts,
   deleteProduct,
@@ -39,6 +40,14 @@ const allProducts = getProducts();
 // const productSelected = getProductById('42448e44-6b96-4fdd-b347-db543ae69a95');
 // console.log(productSelected);
 
+//? find products:
+const productsFound = findProducts({
+  stock: 10,
+  color: 'red',
+  size: 'M',
+});
+// console.log(productsFound);
+
 //? add one product:
 const newProduct = addProduct({
   //   id: faker.datatype.uuid(),
@@ -61,7 +70,7 @@ const newProduct = addProduct({
   //   },
   categoryId: faker.datatype.uuid(),
 });
-console.log(newProduct);
+// console.log(newProduct);
 
 //? add many products:
 // const newProducts =
@@ -94,23 +103,9 @@ console.log(newProduct);
 
 //? update product:
 const updatedProduct = updateProduct('42448e44-6b96-4fdd-b347-db543ae69a95', {
-  id: 'IdCambiado',
-  createdAt: new Date(),
+  description: 'Camiseta de algodón blanca',
+  stock: 121,
+  size: 'L',
   updatedAt: new Date(),
-  title: 'Camiseta',
-  image: 'https://picsum.photos/200/300',
-  description: 'Camiseta de algodón',
-  stock: 10,
-  size: 'M',
-  color: 'blue',
-  price: 10,
-  isNew: true,
-  tags: ['ropa', 'camiseta'],
-  category: {
-    id: 'asd2',
-    createdAt: new Date(),
-    updatedAt: new Date(),
-    name: 'Roupas',
-  },
 });
 console.log(updatedProduct);

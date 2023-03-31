@@ -1,5 +1,9 @@
 import { ProductInterface } from './product.model';
-import { CreateProductDTOInterface } from './product.dto';
+import {
+  CreateProductDTOInterface,
+  UpdateProductDTOInterface,
+  FindProductDTOInterface,
+} from './product.dto';
 import { faker } from '@faker-js/faker';
 
 const fs = require('fs');
@@ -10,7 +14,14 @@ export const products: ProductInterface[] = JSON.parse(
   fs.readFileSync('./src/app/products.json', 'utf-8')
 );
 
-export const getProducts = () => {
+export const getProducts = (): ProductInterface[] => {
+  return products;
+};
+
+export const findProducts = (
+  dto: FindProductDTOInterface
+): ProductInterface[] => {
+  // dto.color = "blue"; // me tira error pq es solo de lectura
   return products;
 };
 
@@ -73,7 +84,10 @@ export const deleteProduct = (id: string) => {
   );
 };
 
-export const updateProduct = (id: string, changes: ProductInterface) => {
+export const updateProduct = (
+  id: string,
+  changes: UpdateProductDTOInterface
+) => {
   console.log('Entré en la función de updateProduct');
 
   const product = products.find((product) => product.id === id);

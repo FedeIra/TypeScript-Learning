@@ -1,17 +1,43 @@
 [
   {
+    "id": "IdCambiado",
+    "createdAt": "2023-03-31T11:46:50.543Z",
+    "updatedAt": "2023-03-31T11:46:50.543Z",
+    "title": "Camiseta",
+    "image": "https://picsum.photos/200/300",
+    "description": "Camiseta de algodón",
+    "stock": 10,
+    "size": "M",
+    "color": "blue",
+    "price": 10,
+    "isNew": true,
+    "tags": [
+      "ropa",
+      "camiseta"
+    ],
+    "category": {
+      "id": "asd2",
+      "createdAt": "2023-03-31T11:46:50.543Z",
+      "updatedAt": "2023-03-31T11:46:50.543Z",
+      "name": "Roupas"
+    }
+  },
+  {
     "id": "42448e44-6b96-4fdd-b347-db543ae69a95",
     "createdAt": "2023-03-30T06:38:26.181Z",
     "updatedAt": "2023-03-29T23:07:27.284Z",
-    "title": "Oriental Granite Soap",
-    "image": "https://loremflickr.com/640/480",
-    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "stock": 54,
-    "size": "S",
-    "color": "indigo",
-    "price": 325,
-    "isNew": false,
-    "tags": ["b", "a"],
+    "title": "Camiseta",
+    "image": "https://picsum.photos/200/300",
+    "description": "Camiseta de algodón blanca",
+    "stock": 121,
+    "size": "L",
+    "color": "blue",
+    "price": 10,
+    "isNew": true,
+    "tags": [
+      "ropa",
+      "camiseta"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -31,7 +57,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -51,7 +80,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -71,7 +103,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -91,7 +126,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -111,7 +149,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -131,7 +172,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -151,7 +195,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -171,7 +218,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -191,7 +241,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -211,7 +264,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -231,7 +287,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -251,7 +310,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -271,7 +333,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -291,7 +356,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -311,7 +379,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -331,7 +402,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -351,7 +425,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -371,7 +448,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -391,7 +471,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -411,7 +494,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -431,7 +517,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -451,7 +540,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -471,7 +563,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -491,7 +586,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -511,7 +609,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -531,7 +632,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -551,7 +655,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -571,7 +678,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -591,7 +701,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -611,7 +724,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -631,7 +747,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -651,7 +770,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -671,7 +793,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -691,7 +816,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -711,7 +839,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -731,7 +862,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -751,7 +885,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -771,7 +908,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -791,7 +931,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -811,7 +954,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -831,7 +977,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -851,7 +1000,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -871,7 +1023,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -891,7 +1046,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -911,7 +1069,10 @@
     "color": "indigo",
     "price": 325,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b",
+      "a"
+    ],
     "category": {
       "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
       "createdAt": "2023-03-29T16:06:34.558Z",
@@ -920,23 +1081,99 @@
     }
   },
   {
-    "id": "42448e44-6b96-4fdd-b347-db543ae69a95",
-    "createdAt": "2023-03-30T06:38:26.181Z",
-    "updatedAt": "2023-03-29T23:07:27.284Z",
-    "title": "Oriental Granite Soap",
+    "title": "Intelligent Rubber Salad",
     "image": "https://loremflickr.com/640/480",
-    "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-    "stock": 54,
-    "size": "S",
-    "color": "indigo",
-    "price": 325,
+    "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+    "stock": 68,
+    "size": "M",
+    "color": "orchid",
+    "price": 432,
     "isNew": false,
-    "tags": ["b", "a"],
+    "tags": [
+      "b"
+    ],
+    "categoryId": "5c174c8c-fc9c-4b4e-9c08-397b5760d8f9",
+    "id": "fabb7338-5874-4ab6-b02b-e8aace2ec444",
+    "createdAt": "2023-03-31T08:14:17.140Z",
+    "updatedAt": "2023-03-31T06:56:42.154Z",
     "category": {
-      "id": "59fae2d9-7e12-47ad-a00b-a2182e9f34de",
-      "createdAt": "2023-03-29T16:06:34.558Z",
-      "updatedAt": "2023-03-29T16:00:11.366Z",
-      "name": "Clothing"
+      "id": "b13ae324-e12e-42f1-bb58-19a6b9a18387",
+      "createdAt": "2023-03-31T10:36:51.868Z",
+      "updatedAt": "2023-03-30T19:52:11.245Z",
+      "name": "Outdoors"
+    }
+  },
+  {
+    "title": "Bespoke Wooden Sausages",
+    "image": "https://loremflickr.com/640/480",
+    "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+    "stock": 34,
+    "size": "XL",
+    "color": "teal",
+    "price": 686,
+    "isNew": true,
+    "tags": [
+      "a",
+      "b",
+      "c"
+    ],
+    "categoryId": "003f8787-cfe4-4ed8-b4ac-8006ccfd90b4",
+    "id": "07c2843d-29d8-40dd-bc66-0ed94b86e664",
+    "createdAt": "2023-03-30T17:33:39.311Z",
+    "updatedAt": "2023-03-31T01:54:06.316Z",
+    "category": {
+      "id": "9c5e44ad-04ea-4153-add5-c00faccef4ae",
+      "createdAt": "2023-03-31T02:21:20.020Z",
+      "updatedAt": "2023-03-30T16:10:30.278Z",
+      "name": "Grocery"
+    }
+  },
+  {
+    "title": "Unbranded Steel Pizza",
+    "image": "https://loremflickr.com/640/480",
+    "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+    "stock": 77,
+    "size": "S",
+    "color": "orange",
+    "price": 180,
+    "isNew": true,
+    "tags": [
+      "b"
+    ],
+    "categoryId": "69aab4bf-da55-4398-b5de-3bb8044278a0",
+    "id": "5e25772c-542b-4da4-99a7-f4640a24071e",
+    "createdAt": "2023-03-31T10:58:43.311Z",
+    "updatedAt": "2023-03-31T02:24:08.696Z",
+    "category": {
+      "id": "123a4a6b-678a-40fc-9ff0-9d89a4b516ce",
+      "createdAt": "2023-03-30T22:33:22.685Z",
+      "updatedAt": "2023-03-31T00:29:19.326Z",
+      "name": "Tools"
+    }
+  },
+  {
+    "title": "Handcrafted Fresh Table",
+    "image": "https://loremflickr.com/640/480",
+    "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+    "stock": 77,
+    "size": "S",
+    "color": "salmon",
+    "price": 322,
+    "isNew": true,
+    "tags": [
+      "a",
+      "b",
+      "c"
+    ],
+    "categoryId": "bc92401f-a346-4cec-9013-1b21b1697eeb",
+    "id": "c9119e9b-36ad-4adc-aff8-0b76a7aa0cfd",
+    "createdAt": "2023-03-30T22:42:06.796Z",
+    "updatedAt": "2023-03-30T16:17:35.420Z",
+    "category": {
+      "id": "0fcb86fc-a873-4c78-a95f-cf20c5ab8df8",
+      "createdAt": "2023-03-31T11:55:18.268Z",
+      "updatedAt": "2023-03-31T00:48:23.397Z",
+      "name": "Games"
     }
   }
 ]
