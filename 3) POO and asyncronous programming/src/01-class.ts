@@ -1,3 +1,21 @@
+/*
+!CLASS:
+Las clases sirven para crear instancias de objetos. Una clase es un molde o plantilla para crear objetos que son instancias. A partir de em6 hay clases nativas.
+
+¿Qué es class?
+JavaScript es un lenguaje orientado a objetos, pero está basado en prototipos.
+Las clases son una sintaxis más amigable para trabajar con prototipos, las clases internamente son prototipos.
+La utilizamos para construir instancias de objetos, es como un molde para crear cosas.
+
+Los prototipos también se diferencia con la POO porque no solamente crean objetos mediante instancias, sino también mediante la clonación.
+
+Buenas prácticas
+Es una buena práctica inicializar las propiedades que coloquemos en nuestra clase, ya sea por fuera o dentro de nuestro constructor.
+
+?Métodos:
+Describen el comportamiento de nuestros objetos, es decir, lo que pueden hacer.
+*/
+
 const date = new Date(); // la clase es Date que tiene sus atributos y métodos. Creamos una instancia que es date la cual hereda esos atributos y métodos, pero le podemos agregar nuevos.
 
 console.log(date); // 2023-04-04T13:48:09.898Z
