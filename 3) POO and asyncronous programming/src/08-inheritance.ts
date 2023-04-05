@@ -42,15 +42,16 @@ console.log(fili.greeting());
 fili.move();
 
 export class Dog extends Animal {
+  // aquí le decimos que la clase Dog hereda de la clase Animal
   constructor(animalName: string, public owner: string) {
-    super(animalName);
+    super(animalName); // aquí invocamos al constructor de la clase padre y le pasamos el argumento animalName para que se ejecute el constructor de la clase padre. Si no lo hacemos, no se ejecuta el constructor de la clase padre.
   }
   bark(times: number): void {
     console.log('Woof! '.repeat(times));
   }
 }
 
-const billy = new Dog('Billy', 'Fede');
+const billy = new Dog('Billy', 'Fede'); // aquí le pasamos los argumentos que necesita el constructor de la clase Dog
 billy.bark(3); // Woof! Woof! Woof!
 billy.move(); // Moving...
 
