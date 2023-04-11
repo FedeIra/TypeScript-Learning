@@ -20,14 +20,14 @@ dog1.bark(2); // Woof Dog1!Woof Dog1!
 
 abstract class AnimalAbstract {
   constructor(protected animalName: string) {}
-  move() {
+  move2() {
     console.log('Moving...');
-    console.log(this.doSomething());
+    console.log(this.doSomething2());
   }
-  greeting() {
+  greeting2() {
     return `Hello, I'm ${this.animalName}`;
   }
-  protected doSomething() {
+  protected doSomething2() {
     console.log('I am doing something');
   }
 }
@@ -57,7 +57,7 @@ enum DIRECTIONS {
   RIGHT = 1,
 }
 
-export abstract class Animal2 {
+export abstract class Animal3 {
   public name: string;
   protected position: [number, number] = [0, 0];
 
@@ -65,7 +65,7 @@ export abstract class Animal2 {
     this.name = name;
   }
 
-  move(direction: DIRECTIONS): number[] {
+  move3(direction: DIRECTIONS): number[] {
     if (direction === DIRECTIONS.UP || direction === DIRECTIONS.DOWN) {
       this.position[0] += direction;
     } else {
@@ -74,10 +74,10 @@ export abstract class Animal2 {
     return this.position;
   }
 
-  abstract sound(): void;
+  abstract sound3(): void;
 }
 
-class Dog extends Animal2 {
+class Dog3 extends Animal3 {
   public owner: string;
 
   constructor(name: string, owner: string) {
@@ -85,11 +85,11 @@ class Dog extends Animal2 {
     this.owner = owner;
   }
 
-  sound(): void {
+  sound3(): void {
     console.log('WOOF');
   }
 }
 
-const Loki = new Dog('Loki', 'Nico');
-console.log(Loki.move(DIRECTIONS.DOWN));
-Loki.sound();
+const Loki = new Dog3('Loki', 'Nico');
+console.log(Loki.move3(DIRECTIONS.DOWN));
+Loki.sound3();
