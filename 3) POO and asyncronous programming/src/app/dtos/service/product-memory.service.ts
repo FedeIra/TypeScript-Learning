@@ -5,11 +5,12 @@ import { CreateProductDto, UpdateProductDto } from '../product.dto';
 
 import * as path from 'path';
 import * as fs from 'fs';
+import { ProductService } from '../../models/product-service.model';
 
 const filePath = path.resolve(__dirname, 'products.json');
 
 // ----- WITH CLASSES -----
-export class ProductMemoryService {
+export class ProductMemoryService implements ProductService {
   private products: Product[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
   // get all products:
   getProducts(): Product[] {
