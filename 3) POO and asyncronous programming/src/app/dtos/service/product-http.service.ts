@@ -4,7 +4,18 @@ import { CreateProductDto, UpdateProductDto } from '../product.dto';
 import axios from 'axios';
 
 export class ProductHttpService implements ProductService {
+  private static instance: ProductHttpService | null = null; // singleton
+
   private url = 'https://api.escuelajs.co/api/v1/products';
+
+  private constructor() {} // singleton
+
+  public static getInstance(): ProductHttpService {
+    if (ProductHttpService.instance === null) {
+      ProductHttpService.instance = new ProductHttpService();
+    }
+    return ProductHttpService.instance;
+  } // singleton
 
   async getProducts() {
     const { data } = await axios.get<Product[]>(this.url);
@@ -29,7 +40,7 @@ export class ProductHttpService implements ProductService {
     return data;
   }
   async deleteProduct(id: Product['id']) {
-    const { data } = await axios.get<Product>(`${this.url}/${id}`);
+    const { data } = await axios.delete<Product>(`${this.url}/${id}`);
     return data;
   }
 }
