@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Product 2",
+    "price": 200,
+    "description": "Description 2",
+    "images": [
+      "image2"
+    ],
+    "categoryId": 2,
+    "id": 85308,
+    "category": {
+      "id": 2,
+      "name": "Clothing",
+      "image": "https://loremflickr.com/640/480"
+    }
+  },
+  {
+    "title": "Product 2",
+    "price": 200,
+    "description": "Description 2",
+    "images": [
+      "image2"
+    ],
+    "categoryId": 2,
+    "id": 33160,
+    "category": {
+      "id": 2,
+      "name": "Clothing",
+      "image": "https://loremflickr.com/640/480"
+    }
+  },
+  {
+    "title": "Product 2",
+    "price": 200,
+    "description": "Description 2",
+    "images": [
+      "image2"
+    ],
+    "categoryId": 2,
+    "id": 20723,
+    "category": {
+      "id": 2,
+      "name": "Kids",
+      "image": "https://loremflickr.com/640/480"
+    }
+  },
+  {
+    "title": "Product 2",
+    "price": 200,
+    "description": "Description 2",
+    "images": [
+      "image2"
+    ],
+    "categoryId": 2,
+    "id": 29521,
+    "category": {
+      "id": 2,
+      "name": "Games",
+      "image": "https://loremflickr.com/640/480"
+    }
+  },
+  {
+    "title": "Product 2",
+    "price": 200,
+    "description": "Description 2",
+    "images": [
+      "image2"
+    ],
+    "categoryId": 2,
+    "id": 20100,
+    "category": {
+      "id": 2,
+      "name": "Music",
+      "image": "https://loremflickr.com/640/480"
+    }
+  },
+  {
+    "title": "Product 2",
+    "price": 200,
+    "description": "Description 2",
+    "images": [
+      "image2"
+    ],
+    "categoryId": 2,
+    "id": 99772,
+    "category": {
+      "id": 2,
+      "name": "Music",
+      "image": "https://loremflickr.com/640/480"
+    }
+  }
+]
