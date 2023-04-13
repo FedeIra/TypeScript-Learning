@@ -11,6 +11,7 @@ const filePath = path.resolve(__dirname, 'products.json');
 
 // ----- WITH CLASSES -----
 export class ProductMemoryService implements ProductService {
+  // private data: TypeClass[] = [];
   private products: Product[] = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
   // get all products:
   getProducts(): Product[] {

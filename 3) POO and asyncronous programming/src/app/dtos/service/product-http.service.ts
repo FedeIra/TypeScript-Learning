@@ -21,6 +21,7 @@ export class ProductHttpService implements ProductService {
     const { data } = await axios.get<Product[]>(this.url);
     return data;
   }
+
   async findOne(id: Product['id']) {
     const { data } = await axios.get<Product | undefined>(`${this.url}/${id}`);
     return data;

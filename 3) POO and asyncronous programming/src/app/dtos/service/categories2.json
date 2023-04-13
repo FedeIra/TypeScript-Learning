@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "image": "https://picsum.photos/640/640?r=9266",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "image": "https://picsum.photos/640/640?r=5945",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "image": "https://picsum.photos/640/640?r=4632",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "image": "https://picsum.photos/640/640?r=5331",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Others",
+    "image": "https://picsum.photos/640/640?r=6034",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 6,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T14:03:19.000Z",
+    "updatedAt": "2023-04-13T14:03:19.000Z"
+  },
+  {
+    "id": 7,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T14:11:38.000Z",
+    "updatedAt": "2023-04-13T14:11:38.000Z"
+  },
+  {
+    "id": 8,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T14:55:19.000Z",
+    "updatedAt": "2023-04-13T14:55:19.000Z"
+  },
+  {
+    "id": 9,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T14:56:10.000Z",
+    "updatedAt": "2023-04-13T14:56:10.000Z"
+  },
+  {
+    "id": 10,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:11:38.000Z",
+    "updatedAt": "2023-04-13T15:11:38.000Z"
+  },
+  {
+    "id": 11,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:13:01.000Z",
+    "updatedAt": "2023-04-13T15:13:01.000Z"
+  },
+  {
+    "id": 12,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:22:36.000Z",
+    "updatedAt": "2023-04-13T15:22:36.000Z"
+  },
+  {
+    "id": 13,
+    "name": "Prueba Lean desde RN",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:22:37.000Z",
+    "updatedAt": "2023-04-13T15:22:37.000Z"
+  },
+  {
+    "id": 14,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:23:49.000Z",
+    "updatedAt": "2023-04-13T15:23:49.000Z"
+  },
+  {
+    "id": 15,
+    "name": "Prueba Lean desde RN",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:23:50.000Z",
+    "updatedAt": "2023-04-13T15:23:50.000Z"
+  }
+]
