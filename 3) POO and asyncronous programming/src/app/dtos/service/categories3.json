@@ -1,0 +1,219 @@
+[
+  {
+    "id": 1,
+    "name": "Clothes",
+    "image": "https://picsum.photos/640/640?r=9266",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 2,
+    "name": "Electronics",
+    "image": "https://picsum.photos/640/640?r=5945",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Furniture",
+    "image": "https://picsum.photos/640/640?r=4632",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Shoes",
+    "image": "https://picsum.photos/640/640?r=5331",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 5,
+    "name": "Others",
+    "image": "https://picsum.photos/640/640?r=6034",
+    "creationAt": "2023-04-13T08:24:05.000Z",
+    "updatedAt": "2023-04-13T08:24:05.000Z"
+  },
+  {
+    "id": 6,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T14:03:19.000Z",
+    "updatedAt": "2023-04-13T14:03:19.000Z"
+  },
+  {
+    "id": 7,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T14:11:38.000Z",
+    "updatedAt": "2023-04-13T14:11:38.000Z"
+  },
+  {
+    "id": 8,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T14:55:19.000Z",
+    "updatedAt": "2023-04-13T14:55:19.000Z"
+  },
+  {
+    "id": 9,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T14:56:10.000Z",
+    "updatedAt": "2023-04-13T14:56:10.000Z"
+  },
+  {
+    "id": 10,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:11:38.000Z",
+    "updatedAt": "2023-04-13T15:11:38.000Z"
+  },
+  {
+    "id": 11,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:13:01.000Z",
+    "updatedAt": "2023-04-13T15:13:01.000Z"
+  },
+  {
+    "id": 12,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:22:36.000Z",
+    "updatedAt": "2023-04-13T15:22:36.000Z"
+  },
+  {
+    "id": 13,
+    "name": "Prueba Lean desde RN",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:22:37.000Z",
+    "updatedAt": "2023-04-13T15:22:37.000Z"
+  },
+  {
+    "id": 14,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:23:49.000Z",
+    "updatedAt": "2023-04-13T15:23:49.000Z"
+  },
+  {
+    "id": 15,
+    "name": "Prueba Lean desde RN",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T15:23:50.000Z",
+    "updatedAt": "2023-04-13T15:23:50.000Z"
+  },
+  {
+    "id": 16,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T16:24:54.000Z",
+    "updatedAt": "2023-04-13T16:24:54.000Z"
+  },
+  {
+    "id": 17,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T16:26:06.000Z",
+    "updatedAt": "2023-04-13T16:26:06.000Z"
+  },
+  {
+    "id": 18,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T16:27:22.000Z",
+    "updatedAt": "2023-04-13T16:27:22.000Z"
+  },
+  {
+    "id": 19,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T16:28:37.000Z",
+    "updatedAt": "2023-04-13T16:28:37.000Z"
+  },
+  {
+    "id": 20,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T16:53:45.000Z",
+    "updatedAt": "2023-04-13T16:53:45.000Z"
+  },
+  {
+    "id": 21,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:00:46.000Z",
+    "updatedAt": "2023-04-13T17:00:46.000Z"
+  },
+  {
+    "id": 22,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:35:06.000Z",
+    "updatedAt": "2023-04-13T17:35:06.000Z"
+  },
+  {
+    "id": 23,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:36:48.000Z",
+    "updatedAt": "2023-04-13T17:36:48.000Z"
+  },
+  {
+    "id": 24,
+    "name": "Prueba Lean desde RN",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:36:48.000Z",
+    "updatedAt": "2023-04-13T17:36:48.000Z"
+  },
+  {
+    "id": 25,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:38:18.000Z",
+    "updatedAt": "2023-04-13T17:38:18.000Z"
+  },
+  {
+    "id": 26,
+    "name": "Prueba Lean desde RN",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:38:18.000Z",
+    "updatedAt": "2023-04-13T17:38:18.000Z"
+  },
+  {
+    "id": 27,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:39:28.000Z",
+    "updatedAt": "2023-04-13T17:39:28.000Z"
+  },
+  {
+    "id": 28,
+    "name": "Prueba Lean desde RN",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:39:29.000Z",
+    "updatedAt": "2023-04-13T17:39:29.000Z"
+  },
+  {
+    "id": 29,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:40:48.000Z",
+    "updatedAt": "2023-04-13T17:40:48.000Z"
+  },
+  {
+    "id": 30,
+    "name": "Prueba Lean desde RN",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:40:48.000Z",
+    "updatedAt": "2023-04-13T17:40:48.000Z"
+  },
+  {
+    "id": 31,
+    "name": "New Category",
+    "image": "https://placeimg.com/640/480/any",
+    "creationAt": "2023-04-13T17:44:05.000Z",
+    "updatedAt": "2023-04-13T17:44:05.000Z"
+  }
+]

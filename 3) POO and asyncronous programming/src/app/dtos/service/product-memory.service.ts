@@ -7,7 +7,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 import { ProductService } from '../../models/product-service.model';
 
-const filePath = path.resolve(__dirname, 'products.json');
+export const filePath = path.resolve(__dirname, 'products.json');
 
 // ----- WITH CLASSES -----
 export class ProductMemoryService implements ProductService {
