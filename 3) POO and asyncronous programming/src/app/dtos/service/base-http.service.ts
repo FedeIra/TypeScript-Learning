@@ -13,7 +13,7 @@ import axios from 'axios';
 import { Product } from '../../models/product.model';
 import { Category } from '../../models/category.model';
 import { UpdateProductDto } from '../product.dto';
-import { UpdateCategoryDto } from './category.dto';
+import { UpdateCategoryDto } from '../category.dto';
 
 const filePathProducts2 = path.resolve(__dirname, 'products3.json');
 const filePathCategories2 = path.resolve(__dirname, 'categories3.json');
